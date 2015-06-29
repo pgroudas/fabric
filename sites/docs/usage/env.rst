@@ -139,7 +139,7 @@ as password prompts, "What host to connect to?" prompts, fabfile invocation of
 session will always terminate cleanly instead of blocking on user input forever
 when unforeseen circumstances arise.
 
-.. versionadded:: 1.1
+.. versionadded:: 1.10.3
 .. seealso:: :option:`--abort-on-prompts`
 
 
@@ -165,6 +165,18 @@ to act as if they have been called with ``pty=False``.
 
 .. seealso:: :option:`--no-pty`
 .. versionadded:: 1.0
+
+.. _banner_timeout:
+
+``banner_timeout``
+------------------
+
+**Default:** ``15``
+
+SSH banner timeout, in seconds.
+
+.. versionadded:: 1.9
+.. seealso:: :option:`--banner-timeout`
 
 .. _colorize-errors:
 
